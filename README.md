@@ -2,7 +2,7 @@
 # E-Commerce Customer Churn Prediction
 
 ## Project Overview
-This project focuses on predicting customer churn in an e-commerce platform using machine learning techniques. **Customer churn**, in this context, refers to customers who are no longer engaging with the platform (defined as `Churn = 1`). By identifying these customers early, the business can proactively implement retention strategies, such as personalized incentives or improved customer experiences, to reduce churn rates and maintain profitability.
+This project focuses on predicting customer churn in an e-commerce platform, Ezora based in India, using machine learning techniques. **Customer churn**, in this context, refers to customers who are no longer engaging with the platform (defined as `Churn = 1`). By identifying these customers early, the business can proactively implement retention strategies, such as personalized incentives or improved customer experiences, to reduce churn rates and maintain profitability.
 
 The primary goal of this project is to build a robust predictive model while minimizing **false negatives (FN)**. This ensures that customers at risk of churning are accurately identified, allowing the business to focus retention efforts effectively. The evaluation metric chosen is the **F2 score**, which places greater emphasis on recall over precision.
 
@@ -50,8 +50,8 @@ Key observations:
 ### 3. Model Development
 - Train multiple machine learning models, including LightGBM, with hyperparameter tuning via `RandomizedSearchCV`.
 - Incorporate the model into a pipeline that integrates preprocessing and evaluation seamlessly.
-- 
-### 5. Model Evaluation
+  
+### 4. Model Evaluation
 - Evaluate models using the **F2 score** to prioritize recall.
 - Analyze **ROC-AUC** and **Precision-Recall curves** for further performance insights.
 
